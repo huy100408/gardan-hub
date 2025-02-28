@@ -1,4 +1,4 @@
-print ("Hello, World!")if not game:IsLoaded() then
+if not game:IsLoaded() then
     game.Loaded:Wait()
 end
 local Players = game:GetService("Players")
